@@ -1,0 +1,17 @@
+[package]
+name = "ffmpeg-zip"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+crossbeam-channel = "0.5.14"
+fs = "0.0.5"
+memchr = "2.7.4"
+regex = "1.11.1"
+shared_child = "1.0.1"
+sysinfo = "0.33.1"
+tempfile = "3.17.1"
+tokio = { version = "1.43.0", features = ["full"] }
+wgpu = "24.0.1"
+
